@@ -1,0 +1,94 @@
+.topic-container {
+    background-color: #EFEFEF;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    /* centering container*/
+    margin: 4rem auto;
+    position: relative;
+}
+
+.topic-container div {
+    flex: 1 250px;
+    text-align: center;
+    position: relative;
+    padding: 1rem;
+}
+
+/* effects after hovering the topic column */
+/* .topic-container-column:hover */
+.topic-container-column:hover {
+    background: #FFFFFF;
+    box-shadow: 5px 1px 5px -1px rgba(0, 0, 0, 0.19);
+}
+
+.topic-container-column:hover::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 0;
+    height: 0;
+    border: 40px solid transparent;
+    border-top-color: #FFFFFF;
+    border-left: 0;
+}
+
+.topic-container-column:hover .read-btn {
+    visibility: hidden;
+}
+
+.topic-container-column .circle-bg-for-icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+.topic-container-column:hover .circle-bg-for-icon {
+    background: #4788C8;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    margin: auto;
+}
+
+.topic-title {
+    color: #4F4D4E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    transform: scaleY(1.2);
+    padding: 1rem;
+    width: 100%;
+}
+
+.topic-title span {
+    font-weight: normal;
+    margin-left: 0.5rem;
+}
+
+.read-btn {
+    background: #4788C8;
+    color: #FFFFFF;
+    padding: 1em 1.5em;
+    font-size: 1rem;
+    border-radius: 10%;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.circle-bg-for-icon {
+    background: #4F4D4E;
+    border-radius: 50%;
+    /* width: 5rem;
+  height: 3rem; */
+    font-size: 3rem;
+    padding: 1rem;
+    color: white;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}

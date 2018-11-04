@@ -1,7 +1,7 @@
 .header-background {
     background-color: #414141;
     border-bottom: 10px solid transparent;
-    border-image: url(/assets/Border-BG.jpg) 30 round;
+    border-image: url(../assets/Border-BG.jpg) 30 round;
 }
 
 .header-container {
