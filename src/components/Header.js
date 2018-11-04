@@ -26,7 +26,10 @@ function Header() {
                     </div>
                 </div>
                 {/* injecting banner inside the Header. */}
-                <Banner introText="Create a" highlight="Powerful" endText="Solution Now!" />
+                <Banner introText = "Create a"
+                highlight = "Powerful"
+                endText = "Solution Now!"
+                buttonText = "Read More"/>
 
             </div>
         </header>

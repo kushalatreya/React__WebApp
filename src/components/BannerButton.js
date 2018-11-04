@@ -1,3 +1,5 @@
+//currently this is not in use.
+
 import React from 'react';
 
 function BannerButton(){

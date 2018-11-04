@@ -5,7 +5,8 @@ import Banner from "./Banner.js"
 function Footer() {
     return (
         <footer>
-            <Banner introText="GET IN TOUCH WITH US" highlight="NOW!!" />
+            
+            <Banner introText="GET IN TOUCH WITH US" highlight="NOW!!" buttonText="Contact Us" />
             <div className="footer-background">
                 <div className="footer-container">
                     <div className="aboutUs">
@@ -55,7 +56,8 @@ function Footer() {
                     <div className="footer-text">Copyright @2003-2012 Ventus Ivc. All Rights Reserved.</div>
                     <div className="footer-icons">
                         <i className="fab fa-twitter-square">
-                            <span>Twitter</span>
+                            <span> Twitter </span>
+
                         </i>
                         <i className="fab fa-facebook-square">
                             <span>Facebook</span>
